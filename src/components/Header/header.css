@@ -1,0 +1,60 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(#563c3c41, #000000);
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  padding-top: 50px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header__left,
+.header__right {
+  position: relative;
+  max-width: 500px;
+  padding: 15px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header__left h1 {
+  font-size: 54px;
+  font-family: "Playwrite CU", cursive;
+  text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.header__left p {
+  font-weight: 200;
+}
+
+.header__right img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1124px) {
+  .header {
+    flex-direction: column;
+  }
+
+}
+
+@media screen and (max-width: 540px) {
+
+  .header__left,
+  .header__right {
+    max-width: 400px;
+  }
+
+  .header__left h1 {
+    font-size: 34px;
+  }
+}
