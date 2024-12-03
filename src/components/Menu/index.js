@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./menu.css";
 import logo from "../../assets/img/cafe-logo.webp";
+import { Link } from "react-router-dom";
 
 function Menu() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,15 +20,15 @@ function Menu() {
         <div className={`bar ${isMenuOpen ? "change" : ""}`}></div>
         <div className={`bar ${isMenuOpen ? "change" : ""}`}></div>
       </div>
-      <ul className={`menu-items ${isMenuOpen ? "show" : ""}`}>
-        <li className="menu__links">home</li>
-        <li className="menu__links">sobre</li>
-        <li className="menu__links">café</li>
-        <li className="menu__links">shop</li>
-        <li className="menu__links">contato</li>
-        <li className="menu__links button">sign in</li>
-        <li className="menu__links button">sign up</li>
-      </ul>
+      <div className={`menu-items ${isMenuOpen ? "show" : ""}`}>
+        <Link className="menu__links" to="/">home</Link>
+        <Link className="menu__links" to="/sobre">sobre</Link>
+        <Link className="menu__links" to="/cafe">café</Link>
+        <Link className="menu__links" to="/shop">shop</Link>
+        <Link className="menu__links" to="/contato">contato</Link>
+        <Link className="menu__links button" to="/signin">sign in</Link>
+        <Link className="menu__links button" to="/signup">sign up</Link>
+      </div>
     </nav>
   );
 }

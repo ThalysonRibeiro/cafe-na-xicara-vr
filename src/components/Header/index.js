@@ -1,10 +1,8 @@
 import logo from "../../assets/img/logo-center.png";
-import Menu from "../Menu";
 import "./header.css";
 function Header() {
   return (
     <header>
-      <Menu />
       <div class="header">
         <div className="header__left">
           <h1>Café na Xícara</h1>

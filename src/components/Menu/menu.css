@@ -23,16 +23,17 @@
 
 .menu-items {
   display: flex;
-  list-style: none;
   gap: 1rem;
 }
 
 .menu__links {
+  text-decoration: none;
   font-size: 15px;
   width: 70px;
   text-align: center;
   text-transform: capitalize;
   padding: 5px 0;
+  color: #fff;
   transition: all 0.5s;
 }
 
@@ -54,8 +55,10 @@
 }
 
 .button:hover {
-  background-color: #fff;
-  color: #18110e;
+  animation: gradienteButton 2s linear;
+  background: linear-gradient(#553c32, #32221b);
+  color: #ffffff;
+  border: 1px solid #553c3246;
   transform: scale(1.1);
 }
 
