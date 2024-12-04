@@ -1,0 +1,25 @@
+.container__sobre {
+  width: 100%;
+  min-height: calc(100vh - 60px);
+  height: auto;
+  padding-top: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.sobre {
+  width: 60%;
+  height: 500px;
+  margin-top: 100px;
+}
+
+.sobre h1 {
+  font-family: "Playwrite CU", cursive;
+}
+
+.sobre p {
+  font-size: 20px;
+  font-weight: 200;
+}

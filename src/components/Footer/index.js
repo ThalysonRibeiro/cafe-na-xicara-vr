@@ -15,8 +15,11 @@ function Footer() {
         </a>
       </div>
       <div>
+        <p>CNPJ 00. 000. 000/0001-00</p>
+        <p>Tel/WhatsApp: (00)00000-0000</p>
+        <p>Endereço: Rua Jhon,19 Narnia</p>
         <p>Entre em contato: pelo emal: rafinha.head@gmail.com</p>
-        <p>©2024 - Café na Xícara. Todos os direitos reservados.</p>
+        <p>©2024 - Café na Xícara. Todos os direitos reservados</p>
       </div>
     </div>
   );

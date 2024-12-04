@@ -21,13 +21,27 @@ function Menu() {
         <div className={`bar ${isMenuOpen ? "change" : ""}`}></div>
       </div>
       <div className={`menu-items ${isMenuOpen ? "show" : ""}`}>
-        <Link className="menu__links" to="/">home</Link>
-        <Link className="menu__links" to="/sobre">sobre</Link>
-        <Link className="menu__links" to="/cafe">café</Link>
-        <Link className="menu__links" to="/shop">shop</Link>
-        <Link className="menu__links" to="/contato">contato</Link>
-        <Link className="menu__links button" to="/signin">sign in</Link>
-        <Link className="menu__links button" to="/signup">sign up</Link>
+        <Link className="menu__links" to="/">
+          home
+        </Link>
+        <Link className="menu__links" to="/sobre">
+          sobre
+        </Link>
+        <Link className="menu__links" to="/cafe">
+          café
+        </Link>
+        <Link className="menu__links" to="/shop">
+          shop
+        </Link>
+        <Link className="menu__links" to="/contato">
+          contato
+        </Link>
+        <Link className="menu__links button" to="/signin">
+          sign in
+        </Link>
+        <Link className="menu__links button" to="/signup">
+          sign up
+        </Link>
       </div>
     </nav>
   );
