@@ -3,8 +3,8 @@
 ![Status do Projeto](https://img.shields.io/badge/status-em%20desenvolvimento-green)
 ![Licença](https://img.shields.io/badge/license-MIT-blue)
 ![Última Atualização](https://img.shields.io/github/last-commit/ThalysonRibeiro/cafe-na-xicara-vr)
-![Tamanho do Repositório](https://img.shields.io/github/repo-size/ThalysonRibeiro/cafe-na-xicara-vr)
-![Estrelas no GitHub](https://img.shields.io/github/stars/ThalysonRibeiro/cafe-na-xicara-vr?style=social)
+<!-- ![Tamanho do Repositório](https://img.shields.io/github/repo-size/ThalysonRibeiro/cafe-na-xicara-vr)
+![Estrelas no GitHub](https://img.shields.io/github/stars/ThalysonRibeiro/cafe-na-xicara-vr?style=social)-->
 
 Link do projeto:
 <a href="https://cafenaxicara.thalyson.dev/" target="_blank">Visite o cafenaxicara.thalyson.dev</a>
