@@ -30,8 +30,8 @@ O projeto **Café na Xícara** é um site dedicado aos amantes de café, oferece
 
 ## Pré-requisitos
 
-- Node.js (versão 14.x ou superior)
-- npm (versão 6.x ou superior)
+- Node.js (versão v22.11.0 ou superior)
+- npm (versão 10.9.0 ou superior)
 
 ## Instalação
 
