@@ -9,17 +9,15 @@
 Link do projeto:
 <a href="https://cafenaxicara.thalyson.dev/" target="_blank">Visite o cafenaxicara.thalyson.dev</a>
 
-![site](src/assets/layout-image-projects-cafe-na-xicara.png)
-
 ## Sobre o Projeto
 
 O projeto **Café na Xícara** é um site dedicado aos amantes de café, oferecendo informações sobre diferentes tipos de café, bebidas, uma loja de itens relacionados, área de cadastro e login.
 
 ## Capturas de Tela
 
-![Página Inicial](src/assets/homepage.png)
-![Galeria de Cafés](src/assets/coffee-gallery.png)
-![Loja](src/assets/shop.png)
+![Página Inicial](src/assets/layout-image-projects-cafe-na-xicara.png)
+![Galeria de Cafés](src/assets//cafes.png)
+![Loja](src/assets/loja.png)
 
 ## Funcionalidades
 
