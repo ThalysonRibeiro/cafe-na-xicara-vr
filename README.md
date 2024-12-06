@@ -1,70 +1,114 @@
-# Getting Started with Create React App
+# Café na Xícara
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Status do Projeto](https://img.shields.io/badge/status-em%20desenvolvimento-green)
+![Licença](https://img.shields.io/badge/license-MIT-blue)
+![Última Atualização](https://img.shields.io/github/last-commit/ThalysonRibeiro/cafe-na-xicara-vr)
+![Tamanho do Repositório](https://img.shields.io/github/repo-size/ThalysonRibeiro/cafe-na-xicara-vr)
+![Estrelas no GitHub](https://img.shields.io/github/stars/ThalysonRibeiro/cafe-na-xicara-vr?style=social)
 
-## Available Scripts
+Link do projeto:
+<a href="https://cafenaxicara.thalyson.dev/" target="_blank">Visite o cafenaxicara.thalyson.dev</a>
 
-In the project directory, you can run:
+![site](src/assets/layout-image-projects-cafe-na-xicara.png)
 
-### `npm start`
+## Sobre o Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+O projeto **Café na Xícara** é um site dedicado aos amantes de café, oferecendo informações sobre diferentes tipos de café, bebidas, uma loja de itens relacionados, área de cadastro e login.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Capturas de Tela
 
-### `npm test`
+![Página Inicial](src/assets/homepage.png)
+![Galeria de Cafés](src/assets/coffee-gallery.png)
+![Loja](src/assets/shop.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Funcionalidades
 
-### `npm run build`
+- **Galeria de Bebidas de Café**: Apresenta uma galeria de bebidas à base de café com imagens e detalhes de cada uma.
+- **Pesquisa de Café**: Pesquise por diferentes tipos de café com base em características como sabor, origem e métodos de preparo.
+- **Links Externos**: Links para mais informações sobre cada tipo de café.
+- **Loja**: Itens como cafeteiras, cafés e acessórios.
+- **Login**: Acesso a itens salvos (em desenvolvimento).
+- **Cadastro**: Criar conta para salvar tipos de café e itens (em desenvolvimento).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Pré-requisitos
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js (versão 14.x ou superior)
+- npm (versão 6.x ou superior)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Instalação
 
-### `npm run eject`
+1. Clone o repositório
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   git clone https://github.com/ThalysonRibeiro/cafe-na-xicara-vr.git
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Navegue até o diretório do projeto
+   ```bash
+   cd cafe-na-xicara-vr
+   ```
+3. Instale as dependências
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4.  Inicie o servidor de desenvolvimento
 
-## Learn More
+```bash
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Scripts Disponíveis
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+No diretório do projeto, você pode executar:
 
-### Code Splitting
+`npm start:` Inicia o servidor de desenvolvimento
+`npm run build:` Compila o aplicativo para produção
+`npm test:` Executa os testes
+`npm run eject:` Remove a configuração de build única
+`npm run format:` Formata o código usando Prettier
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Tecnologias Utilizadas
 
-### Analyzing the Bundle Size
+**ReactJs (v18.3.1):** Biblioteca para construção de interfaces de usuário
+**React Router (v7.0.2):** Roteamento de páginas
+**Prettier:** Formatação de código
+**React Testing Library:** Testes de componentes
+**Web Vitals:** Métricas de performance
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Dependências
 
-### Making a Progressive Web App
+**Principais**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **react**
+- **react-dom**
+- **react-router-dom**
+- **react-scripts**
 
-### Advanced Configuration
+## Dependências de Desenvolvimento
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **prettier**
+- **@testing-library/react**
+- **@testing-library/jest-dom**
 
-### Deployment
+## Roadmap
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- [ ] Implementar autenticação completa
+- [ ] Adicionar carrinho de compras
+- [ ] Desenvolver sistema de avaliação de cafés
+- [x] Implementar modo responsivo para dispositivos móveis
 
-### `npm run build` fails to minify
+## Contribuições
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Contribuições são bem-vindas! Para contribuir:**
+
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature
+3. Commit suas alterações
+4. Faça um push para a branch
+5. Abra um Pull Request
+
+Dica: Use npm run format para garantir a padronização do código.
+Licença
+Este projeto está sob licença MIT.
